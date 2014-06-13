@@ -1,0 +1,4 @@
+{
+    "port": "80",           
+    "root": "E:/NodeJS/node-echo/bin"
+}
