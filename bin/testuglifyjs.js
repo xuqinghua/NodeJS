@@ -3,7 +3,8 @@ var path = require('path');
 var UglifyJS = require("uglify-js");
 
 var result = UglifyJS.minify("var b = function () {};                                   var x='DDD';function ccc(x){                alert('x'+bbbb)}", {fromString: true});
-console.log(result);
+console.log(typeof result.code);
+console.log(result.code);
 /*//var jsp = require("uglify-js").parser;
 var pro = require("uglify-js").uglify;
 
